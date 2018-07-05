@@ -15,14 +15,30 @@ A minimal template with the following things.
 
 ## Usage
 
+### Cleaning
+Run these commands to clean up the directory
+``` bash
+# Cleans up the build and dist folders
+yarn clean
+
+# Cleans up the builds, build cache, and node modules
+yarn superclean
+```
+
 ### Development mode
 Run these commands to start dev server and Electron app
 ``` bash
 # Parcel bundles the code and runs dev server
-$ yarn dev
+$ yarn server
 
 # Run the electron app which uses local dev server
-$ yarn start-dev
+$ yarn client
+
+# To run both commands together
+$ yarn dev
+
+# To run a static build and start an electron client
+$ yarn start
 ```
 
 ### Production mode and packaging app
