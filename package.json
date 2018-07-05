@@ -1,0 +1,43 @@
+{
+  "name": "phaser-electron-typescript-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "superclean": "rimraf .cache node_modules build dist",
+    "clean": "rimraf build dist",
+    "dev": "parcel ./src/index.html -d build",
+    "start-dev": "cross-env ELECTRON_START_URL=http://localhost:1234 electron .",
+    "start": "electron .",
+    "build": "parcel build ./src/index.html -d build --public-url ./",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "parcel.electron",
+    "mac": {
+      "category": "your.app.category.type"
+    },
+    "files": [
+      "main.js",
+      "build/*"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.10.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "electron": "^2.0.4",
+    "electron-builder": "^20.19.1",
+    "electron-reload": "^1.2.5",
+    "parcel-bundler": "^1.9.4",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.10.0",
+    "tslint-config-airbnb": "^5.9.2",
+    "typescript": "^2.9.2"
+  }
+}
