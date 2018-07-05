@@ -23,13 +23,16 @@ function createWindow () {
     slashes: true
   });
 
-  console.log("Running from " + startUrl);
-
   // and load the index.html of the app.
-  mainWindow.loadURL(startUrl)
+  mainWindow.loadURL(startUrl);
 
-  // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  if (process.env.ELECTRON_DEBUG) {
+    // Open the DevTools.
+    mainWindow.webContents.openDevTools();
+  } else {
+    // Open window in fullscreen
+    mainWindow.setFullScreen(true);
+  }
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {

@@ -9,7 +9,8 @@
         "object-literal-sort-keys": false,
         "trailing-comma": false,
         "eofline": false,
-        "no-reference": false
+        "no-reference": false,
+        "ordered-imports": false
     },
     "rulesDirectory": []
 }

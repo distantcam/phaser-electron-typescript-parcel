@@ -1,0 +1,19 @@
+* { margin: 0; padding: 0;}
+
+html, body {
+  height:100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #eee;
+  font: caption;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

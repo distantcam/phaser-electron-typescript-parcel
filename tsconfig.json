@@ -5,7 +5,7 @@
     "strict": true,
     "typeRoots": [
       "./typings",
-      "./node_modules/@types"
+      "./node_modules/"
     ],
   },
   "include": [
