@@ -11,7 +11,8 @@
     "start": "electron .",
     "build": "parcel build ./src/index.html -d build --public-url ./",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "electron-builder",
+    "dist-all": "electron-builder -mwl"
   },
   "build": {
     "appId": "parcel.electron",
