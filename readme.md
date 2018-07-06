@@ -1,4 +1,4 @@
-# phaser-electron-typescript-parcel
+# phaser-electron-typescript-parcel [![Build Status](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel.svg?branch=master)](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel)
 
 A minimal template with the following things.
 
@@ -39,6 +39,9 @@ $ yarn dev
 
 # To run a static build and start an electron client
 $ yarn start
+
+# This compiles the code so it can be debugged in VS Code
+$ yarn debug
 ```
 
 ### Production mode and packaging app
