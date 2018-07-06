@@ -29,11 +29,11 @@
   "author": "distantcam",
   "license": "MIT",
   "dependencies": {
-    "electron": "^2.0.4",
     "phaser": "^3.10.1"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
+    "electron": "^2.0.4",
     "electron-builder": "^20.19.1",
     "electron-reload": "^1.2.5",
     "node-sass": "^4.9.1",
