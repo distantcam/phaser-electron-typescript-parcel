@@ -26,10 +26,10 @@ function createWindow () {
   // and load the index.html of the app.
   mainWindow.loadURL(startUrl);
 
-  if (process.env.ELECTRON_DEBUG) {
+  if (process.env.ELECTRON_DEBUG === 'true') {
     // Open the DevTools.
     mainWindow.webContents.openDevTools();
-  } else {
+  } else if (!process.env.ELECTRON_DEBUG) {
     // Open window in fullscreen
     mainWindow.setFullScreen(true);
   }

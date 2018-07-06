@@ -10,7 +10,9 @@
         "trailing-comma": false,
         "eofline": false,
         "no-reference": false,
-        "ordered-imports": false
+        "ordered-imports": false,
+        "align": false,
+        "no-console": false
     },
     "rulesDirectory": []
 }

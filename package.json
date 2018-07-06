@@ -10,6 +10,7 @@
     "server": "rimraf build && parcel ./src/index.html -d build",
     "client": "cross-env ELECTRON_DEBUG=true ELECTRON_START_URL=http://localhost:1234 electron .",
     "dev": "run-p server client",
+    "debug": "rimraf build && parcel watch ./src/index.html -d build --public-url ./ --no-hmr",
     "build": "rimraf build && parcel build ./src/index.html -d build --public-url ./",
     "start": "yarn build && electron .",
     "dist": "yarn build && electron-builder"
