@@ -12,7 +12,9 @@
         "no-reference": false,
         "ordered-imports": false,
         "align": false,
-        "no-console": false
+        "no-console": false,
+        "import-name": false,
+        "no-submodule-imports": false
     },
     "rulesDirectory": []
 }
