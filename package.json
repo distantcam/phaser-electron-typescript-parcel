@@ -1,8 +1,7 @@
 {
   "name": "phaser-electron-typescript-parcel",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "phaser electron typescript parcel template",
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
     "superclean": "rimraf .cache node_modules build dist",
@@ -14,6 +13,8 @@
     "debug": "cross-env ELECTRON_DEBUG=vscode electron --remote-debugging-port=9223 build/main.js",
     "dist": "yarn build && electron-builder"
   },
+  "homepage": "https://github.com/distantcam/phaser-electron-typescript-parcel",
+  "bugs": { "url": "https://github.com/distantcam/phaser-electron-typescript-parcel/issues" },
   "build": {
     "appId": "parcel.electron",
     "mac": {
@@ -23,7 +24,7 @@
       "build/*"
     ]
   },
-  "keywords": [],
+  "keywords": ["phaser", "electron"],
   "author": "distantcam",
   "license": "MIT",
   "dependencies": {
