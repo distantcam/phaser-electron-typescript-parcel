@@ -2,7 +2,7 @@
   "name": "phaser-electron-typescript-parcel",
   "version": "1.0.0",
   "description": "phaser electron typescript parcel template",
-  "main": "dist/main.js",
+  "main": "build/main.js",
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
     "superclean": "rimraf .cache node_modules build dist",
