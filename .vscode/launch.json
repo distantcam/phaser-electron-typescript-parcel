@@ -10,7 +10,7 @@
       "request": "launch",
       "protocol": "inspector",
       "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
-      "runtimeArgs": ["--remote-debugging-port=9223", "."],
+      "runtimeArgs": ["--remote-debugging-port=9223", "build/main.js"],
       "env": { "ELECTRON_DEBUG": "vscode" },
       "windows": {
         "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"

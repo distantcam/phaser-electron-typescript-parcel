@@ -8,12 +8,13 @@
     "superclean": "rimraf .cache node_modules build dist",
     "clean": "rimraf build dist",
     "download-phaser-typedef": "download --out typings https://raw.githubusercontent.com/photonstorm/phaser3-docs/master/typescript/phaser.d.ts",
-    "server": "rimraf build && parcel ./src/index.html -d build",
-    "client": "cross-env ELECTRON_DEBUG=true ELECTRON_START_URL=http://localhost:1234 electron .",
-    "dev": "run-p server client",
-    "debug": "rimraf build && parcel watch ./src/index.html -d build --public-url ./ --no-hmr",
-    "build": "rimraf build && parcel build ./src/index.html -d build --public-url ./",
-    "start": "yarn build && electron .",
+
+    "build": "rimraf build && parcel build src/main.ts src/index.html --public-url ./ -d build --out-file=main --target=electron",
+    "watch": "rimraf build && parcel watch src/main.ts src/index.html --public-url ./ -d build --out-file=main --target=electron",
+
+    "app": "cross-env ELECTRON_DEBUG=true electron build/main.js",
+    "debug": "cross-env ELECTRON_DEBUG=vscode electron --remote-debugging-port=9223 build/main.js",
+
     "dist": "yarn build && electron-builder"
   },
   "build": {
@@ -22,7 +23,6 @@
       "category": "your.app.category.type"
     },
     "files": [
-      "main.js",
       "build/*"
     ]
   },
@@ -43,7 +43,6 @@
     "parcel-bundler": "^1.9.7",
     "rimraf": "^2.6.2",
     "tslint": "^5.10.0",
-    "tslint-config-airbnb": "^5.9.2",
     "typescript": "^2.9.2"
   }
 }

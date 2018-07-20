@@ -26,30 +26,29 @@ yarn superclean
 ```
 
 ### Development mode
-Run these commands to start dev server and Electron app
+Run these commands to build and run the Electron app
 ``` bash
-# Parcel bundles the code and runs dev server
-$ yarn server
+# Parcel bundles the code
+$ yarn build
 
-# Run the electron app which uses local dev server
-$ yarn client
+# Parcel bundles the code and watches for changes
+$ yarn watch
 
-# To run both commands together
-$ yarn dev
+# Run the electron app
+$ yarn app
 
-# To run a static build and start an electron client
-$ yarn start
-
-# This compiles the code so it can be debugged in VS Code
+# Run the electron app with options for a debugger to attach to the render process
 $ yarn debug
+
+# To debug the app in VS Code you can
+# - use yarn debug and run 'Electron: Renderer' in the debugger
+# or
+# - run 'Electron: All' in the debugger
 ```
 
 ### Production mode and packaging app
 Run this command to bundle code in production mode
 ``` bash
-# Parcel bundle code once
-$ yarn build
-
 # Create executables
 $ yarn dist
 ```
