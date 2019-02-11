@@ -4451,9 +4451,9 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
-phaser@^3.16.1:
-  version "3.16.1"
-  resolved "https://registry.yarnpkg.com/phaser/-/phaser-3.16.1.tgz#79107378edc2abcded79bc4a79f1dd51f485f58a"
+phaser@^3.16.2:
+  version "3.16.2"
+  resolved "https://registry.yarnpkg.com/phaser/-/phaser-3.16.2.tgz#ae95dcbd5c4ed8eb550d99570ceaa9d2fed8e277"
   dependencies:
     eventemitter3 "^3.1.0"
     exports-loader "^0.7.0"
