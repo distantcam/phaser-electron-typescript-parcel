@@ -42,6 +42,6 @@
     "parcel-bundler": "^1.12.3",
     "rimraf": "^2.6.3",
     "tslint": "^5.17.0",
-    "typescript": "^3.5.1"
+    "typescript": "^3.5.2"
   }
 }
