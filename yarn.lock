@@ -4597,9 +4597,9 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
-phaser@^3.17.0:
-  version "3.17.0"
-  resolved "https://registry.yarnpkg.com/phaser/-/phaser-3.17.0.tgz#9bf64a5a348c8d345dc122c5d5fc4f60d693c104"
+phaser@^3.18.0:
+  version "3.18.0"
+  resolved "https://registry.yarnpkg.com/phaser/-/phaser-3.18.0.tgz#f9b16e0315555013af908e64191582cf3aef6013"
   dependencies:
     dts-dom "^3.2.0"
     eventemitter3 "^3.1.0"
