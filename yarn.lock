@@ -802,25 +802,25 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-app-builder-bin@2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/app-builder-bin/-/app-builder-bin-2.7.0.tgz#a7f6a41871af5ee89d6bf1593985f8cbe301e15c"
+app-builder-bin@2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/app-builder-bin/-/app-builder-bin-2.7.1.tgz#9f690af65093821b8a6149aa29ce9f8c81fc554c"
 
-app-builder-lib@20.44.3, app-builder-lib@~20.44.3:
-  version "20.44.3"
-  resolved "https://registry.yarnpkg.com/app-builder-lib/-/app-builder-lib-20.44.3.tgz#c4e04a80b21f246a33b5eb6e04ae7db377efd1c5"
+app-builder-lib@20.44.4, app-builder-lib@~20.44.4:
+  version "20.44.4"
+  resolved "https://registry.yarnpkg.com/app-builder-lib/-/app-builder-lib-20.44.4.tgz#39ac20b3155e1b0c2499862bcdea879b50389573"
   dependencies:
     "7zip-bin" "~4.1.0"
-    app-builder-bin "2.7.0"
+    app-builder-bin "2.7.1"
     async-exit-hook "^2.0.1"
     bluebird-lst "^1.0.9"
-    builder-util "10.1.1"
+    builder-util "10.1.2"
     builder-util-runtime "8.2.5"
     chromium-pickle-js "^0.2.0"
     debug "^4.1.1"
     ejs "^2.6.2"
     electron-osx-sign "0.4.11"
-    electron-publish "20.44.3"
+    electron-publish "20.44.4"
     fs-extra-p "^8.0.2"
     hosted-git-info "^2.7.1"
     is-ci "^2.0.0"
@@ -1219,13 +1219,13 @@ builder-util-runtime@8.2.5, builder-util-runtime@^8.2.5:
     fs-extra-p "^8.0.2"
     sax "^1.2.4"
 
-builder-util@10.1.1, builder-util@~10.1.1:
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-10.1.1.tgz#a6385702d6e54af8197c3879334c2387a6f9e309"
+builder-util@10.1.2, builder-util@~10.1.2:
+  version "10.1.2"
+  resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-10.1.2.tgz#29e631025aa4c837411d5e4ef425d14e320eb2d0"
   dependencies:
     "7zip-bin" "~4.1.0"
     "@types/debug" "^4.1.4"
-    app-builder-bin "2.7.0"
+    app-builder-bin "2.7.1"
     bluebird-lst "^1.0.9"
     builder-util-runtime "^8.2.5"
     chalk "^2.4.2"
@@ -2042,13 +2042,13 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-dmg-builder@6.7.1:
-  version "6.7.1"
-  resolved "https://registry.yarnpkg.com/dmg-builder/-/dmg-builder-6.7.1.tgz#4c4b935d1f545fc127f328bd4fc47565bf806b71"
+dmg-builder@6.7.2:
+  version "6.7.2"
+  resolved "https://registry.yarnpkg.com/dmg-builder/-/dmg-builder-6.7.2.tgz#4ba4955e7f35f159ce53c68d74d3ea74875f9afd"
   dependencies:
-    app-builder-lib "~20.44.3"
+    app-builder-lib "~20.44.4"
     bluebird-lst "^1.0.9"
-    builder-util "~10.1.1"
+    builder-util "~10.1.2"
     fs-extra-p "^8.0.2"
     iconv-lite "^0.4.24"
     js-yaml "^3.13.1"
@@ -2179,16 +2179,16 @@ ejs@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.6.2.tgz#3a32c63d1cd16d11266cd4703b14fec4e74ab4f6"
 
-electron-builder@^20.44.3:
-  version "20.44.3"
-  resolved "https://registry.yarnpkg.com/electron-builder/-/electron-builder-20.44.3.tgz#31ba3bf296f2e090dbf55f0b48dd7e3366ca2f33"
+electron-builder@^20.44.4:
+  version "20.44.4"
+  resolved "https://registry.yarnpkg.com/electron-builder/-/electron-builder-20.44.4.tgz#c47981ddf486d582c0ae0f4d530c831010aacad7"
   dependencies:
-    app-builder-lib "20.44.3"
+    app-builder-lib "20.44.4"
     bluebird-lst "^1.0.9"
-    builder-util "10.1.1"
+    builder-util "10.1.2"
     builder-util-runtime "8.2.5"
     chalk "^2.4.2"
-    dmg-builder "6.7.1"
+    dmg-builder "6.7.2"
     fs-extra-p "^8.0.2"
     is-ci "^2.0.0"
     lazy-val "^1.0.4"
@@ -2222,12 +2222,12 @@ electron-osx-sign@0.4.11:
     minimist "^1.2.0"
     plist "^3.0.1"
 
-electron-publish@20.44.3:
-  version "20.44.3"
-  resolved "https://registry.yarnpkg.com/electron-publish/-/electron-publish-20.44.3.tgz#3ea11c2057f570e9ddb3758da8c73615b9f3f823"
+electron-publish@20.44.4:
+  version "20.44.4"
+  resolved "https://registry.yarnpkg.com/electron-publish/-/electron-publish-20.44.4.tgz#f826de3788c4e3848b7f6ebd2c3acb910a1d66cc"
   dependencies:
     bluebird-lst "^1.0.9"
-    builder-util "~10.1.1"
+    builder-util "~10.1.2"
     builder-util-runtime "^8.2.5"
     chalk "^2.4.2"
     fs-extra-p "^8.0.2"
