@@ -2234,9 +2234,10 @@ electron-publish@20.44.4:
     lazy-val "^1.0.4"
     mime "^2.4.4"
 
-electron-reload@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/electron-reload/-/electron-reload-1.4.0.tgz#00154268c936fa17b496fdb1728434c747e1d29a"
+electron-reload@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/electron-reload/-/electron-reload-1.4.1.tgz#9debd21b6ccd45f740520ab10bbd014f576ff2b0"
+  integrity sha512-DnQGcSUEfrrxImNymxJRQcJCYFIJgiO82tLL86NKwMIz5bLolpIZA7L4PwEjeSHnO3jTQgOTxA9dV76TkAvVcg==
   dependencies:
     chokidar "^2.0.4"
 
