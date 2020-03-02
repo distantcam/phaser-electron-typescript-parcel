@@ -48,6 +48,6 @@
     "parcel-plugin-static-files-copy": "^2.3.1",
     "rimraf": "^3.0.2",
     "tslint": "^5.20.1",
-    "typescript": "^3.8.2"
+    "typescript": "^3.8.3"
   }
 }
