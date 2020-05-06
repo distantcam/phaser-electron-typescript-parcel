@@ -39,7 +39,7 @@
   "devDependencies": {
     "cross-env": "^7.0.2",
     "download-cli": "^1.1.1",
-    "electron": "^7.1.11",
+    "electron": "^8.2.5",
     "electron-builder": "^22.6.0",
     "electron-reload": "^1.5.0",
     "node-sass": "^4.14.1",
