@@ -2743,21 +2743,6 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
-file-match@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/file-match/-/file-match-1.0.2.tgz#c9cad265d2c8adf3a81475b0df475859069faef7"
-  integrity sha1-ycrSZdLIrfOoFHWw30dYWQafrvc=
-  dependencies:
-    utils-extend "^1.0.6"
-
-file-system@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/file-system/-/file-system-2.2.2.tgz#7d65833e3a2347dcd956a813c677153ed3edd987"
-  integrity sha1-fWWDPjojR9zZVqgTxncVPtPt2Yc=
-  dependencies:
-    file-match "^1.0.1"
-    utils-extend "^1.0.4"
-
 file-type@5.2.0, file-type@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/file-type/-/file-type-5.2.0.tgz#2ddbea7c73ffe36368dfae49dc338c058c2b8ad6"
@@ -4761,12 +4746,11 @@ parcel-bundler@^1.12.4:
     v8-compile-cache "^2.0.0"
     ws "^5.1.1"
 
-parcel-plugin-static-files-copy@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-static-files-copy/-/parcel-plugin-static-files-copy-2.3.1.tgz#db7d1ffbc70f25a02091c5f5c29bfb36cbb4c74a"
-  integrity sha512-yqB1bhSK+hbfxSjc1y/gBc+Fm6bedNrofx75wgnI0sP+6oEBqjyN51tlJVLu6pZhBLi11ZFwAM2XubCUh2G0+A==
+parcel-plugin-static-files-copy@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-static-files-copy/-/parcel-plugin-static-files-copy-2.3.4.tgz#4f9c99d81d46580394491a3b7085bf1dd2fcc745"
+  integrity sha512-rniw8BKfGPXxgbvCmIPyRrPp0buY6q5+g8WM9mbDtYloWNgHS4imDz4IIFXEfwqscgGSONbB+TArr5Ja5X+ZMg==
   dependencies:
-    file-system "2.2.2"
     minimatch "3.0.4"
     path "0.12.7"
 
@@ -6683,11 +6667,6 @@ util@^0.10.3:
   resolved "https://registry.yarnpkg.com/util/-/util-0.10.4.tgz#3aa0125bfe668a4672de58857d3ace27ecb76901"
   dependencies:
     inherits "2.0.3"
-
-utils-extend@^1.0.4, utils-extend@^1.0.6:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/utils-extend/-/utils-extend-1.0.8.tgz#ccfd7b64540f8e90ee21eec57769d0651cab8a5f"
-  integrity sha1-zP17ZFQPjpDuIe7Fd2nQZRyril8=
 
 uuid@^3.3.2:
   version "3.3.2"
