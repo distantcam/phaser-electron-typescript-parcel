@@ -4746,10 +4746,10 @@ parcel-bundler@^1.12.4:
     v8-compile-cache "^2.0.0"
     ws "^5.1.1"
 
-parcel-plugin-static-files-copy@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-static-files-copy/-/parcel-plugin-static-files-copy-2.4.2.tgz#040ca62bee2f2a709a5d97b86f4069f9c951c2e7"
-  integrity sha512-t4IF5IMamnONm+dj6yZneZGfeHP217clyisMBRSkwNWAAsPOVr5/gtZDKSHCFKB3+6uVAPBMh9lt+LNLyFgJAg==
+parcel-plugin-static-files-copy@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-static-files-copy/-/parcel-plugin-static-files-copy-2.4.3.tgz#daa4536f2285d4e573eafc7ea4f9503317526796"
+  integrity sha512-tUZn54XsZIZ9hhhNQkyaWaHLvjOj2wra8pp4yPjp1b5p1frQ+YEwG6eaNtaQVyA+UvORsZg+Wni7n9gIOBE8eA==
   dependencies:
     minimatch "3.0.4"
     path "0.12.7"

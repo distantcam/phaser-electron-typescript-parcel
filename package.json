@@ -45,7 +45,7 @@
     "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
     "parcel-bundler": "^1.12.4",
-    "parcel-plugin-static-files-copy": "^2.4.2",
+    "parcel-plugin-static-files-copy": "^2.4.3",
     "rimraf": "^3.0.2",
     "tslint": "^6.1.2",
     "typescript": "^3.9.5"
