@@ -4892,10 +4892,10 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
-phaser@^3.24.0:
-  version "3.24.0"
-  resolved "https://registry.yarnpkg.com/phaser/-/phaser-3.24.0.tgz#d290947685b99963fdbaea7fd58cf7de9b43489e"
-  integrity sha512-hUedTaSoQfDRc3ZmrlnBZciTK1kfELXrEyMi+Da2KFzAwK4PyZ4jl+0sleoVqb9/KaPeOCQieit9ru1Djh8uOw==
+phaser@^3.24.1:
+  version "3.24.1"
+  resolved "https://registry.yarnpkg.com/phaser/-/phaser-3.24.1.tgz#376e0c965d2a35af37c06ee78627dafbde5be017"
+  integrity sha512-WbrRMkbpEzarkfrq83akeauc6b8xNxsOTpDygyW7wrU2G2ne6kOYu3hji4UAaGnZaOLrVuj8ycYPjX9P1LxcDw==
   dependencies:
     eventemitter3 "^4.0.4"
     exports-loader "^1.1.0"
