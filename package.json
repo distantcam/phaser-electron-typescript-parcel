@@ -37,7 +37,7 @@
     "phaser": "^3.24.1"
   },
   "devDependencies": {
-    "cross-env": "^7.0.2",
+    "cross-env": "^7.0.3",
     "download-cli": "^1.1.1",
     "electron": "^9.2.1",
     "electron-builder": "^22.9.1",
