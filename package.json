@@ -34,7 +34,7 @@
   "author": "distantcam",
   "license": "MIT",
   "dependencies": {
-    "phaser": "^3.54.0"
+    "phaser": "^3.55.1"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
