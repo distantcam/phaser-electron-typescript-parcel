@@ -5475,10 +5475,10 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
-phaser@^3.54.0:
-  version "3.54.0"
-  resolved "https://registry.yarnpkg.com/phaser/-/phaser-3.54.0.tgz#46b191e46059aab2a9a57f78525c60b595767eee"
-  integrity sha512-/1XVI6J2siS0OGwJez7vLbRjars1zb//EvJdYMVyd3wNTUf5DHrvYUj1f6TsEISr4vjnbrNtS66QIuPbGU8x6A==
+phaser@^3.55.2:
+  version "3.55.2"
+  resolved "https://registry.yarnpkg.com/phaser/-/phaser-3.55.2.tgz#c1e2e9e70de7085502885e06f46b7eb4bd95e29a"
+  integrity sha512-amKXsbb2Ht29dGPKvt1edq3yGGYKtq8373GpJYGKPNPnneYY6MtVTOgjHDuZwtmUyK4v86FugkT3hzW/N4tjxQ==
   dependencies:
     eventemitter3 "^4.0.7"
     path "^0.12.7"
