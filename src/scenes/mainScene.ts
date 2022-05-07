@@ -1,4 +1,4 @@
-import 'phaser';
+import Phaser from 'phaser';
 
 import phaserPng from '../assets/phaser.png';
 
@@ -20,5 +20,9 @@ export class MainScene extends Phaser.Scene {
       this.image.x = event.x;
       this.image.y = event.y;
     });
+  }
+
+  public update(): void {
+      this.image.rotation += 0.01;
   }
 }
